@@ -79,7 +79,6 @@ steps:
     Author: $(git log --format='%an <%ae>' -n 1 HEAD)" && \
     git push origin candidate
 
-# [END cloudbuild-trigger-cd]
 
 options:
   logging: CLOUD_LOGGING_ONLY
